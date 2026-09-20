@@ -1,0 +1,51 @@
+body{
+    color: orangered;
+    font-style: italic;
+}
+.logo{
+    size: 50px;
+    color:black; 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: antiquewhite;
+    color:aliceblue;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 25px;
+
+}
+.img-1{
+    width: 100px;
+    max-height: 150px;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    
+
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: max-content;
+    gap: 25px;
+    padding:20px
+}
+.container{
+    background: white;
+    border-radius: 10px;
+}
+.project-btn{
+display:inline-block;
+color: black;
+border-radius: 6px;
+margin-top: 10px;
+border: 30px;
+border-color: bisque;
+}
